@@ -16,7 +16,7 @@ function setAsosiy(){
     setRotation(milSoat, hoursRatio );
 }
 
-function setRotation(elemnt, rotationRatio){
+function setRotation(element, rotationRatio){
     element.style.setProperty( '--rotation', rotationRatio * 360);
 }
 setAsosiy();
